@@ -1,4 +1,4 @@
-# TechKrishi
+# KrishiBazar
   A DECENTRALIZED AGRO-MARKET WHERE THE FARMERS CAN EASILY RAISE FUND FOR CULTIVATION AND SELL THEIR PRODUCE TO THE CONSUMERS.
 # Setup
  Setup up Ganache and Metamask on your System (Windows)

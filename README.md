@@ -38,6 +38,4 @@ Step 6: Goto localhost:3000
 ![screenshot44](https://github.com/aryansarkar13/TechKrishi/blob/master/Screenshots/ss4.PNG?raw=true)
 ![screenshot5](https://github.com/aryansarkar13/TechKrishi/blob/master/Screenshots/ss5.PNG?raw=true)
 ![screenshot6](https://github.com/aryansarkar13/TechKrishi/blob/master/Screenshots/ss6.PNG?raw=true)
-![screenshot7](https://github.com/aryansarkar13/TechKrishi/blob/master/Screenshots/ss7.PNG?raw=true)
-![screenshot8](https://github.com/aryansarkar13/TechKrishi/blob/master/Screenshots/ss8.PNG?raw=true)
 

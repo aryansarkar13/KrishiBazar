@@ -39,3 +39,5 @@ Step 6: Goto localhost:3000
 ![screenshot5](https://github.com/aryansarkar13/TechKrishi/blob/master/Screenshots/ss5.PNG?raw=true)
 ![screenshot6](https://github.com/aryansarkar13/TechKrishi/blob/master/Screenshots/ss6.PNG?raw=true)
 
+#Developed By
+Team TechKrishi

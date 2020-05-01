@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Quality Testing</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>KrishiBazar</strong> </a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="farmer.html">Farmer registration</a></li>
+							<li><a href="quality_test.html">Quality testing</a></li>
+                            <li><a href="finance.html">Micro-Finances</a></li>
+							<li><a href="customer.html">Information Portal</a></li>
+							<li>Blockchain ID : <span class="white"><span id="SenderBalance"></span></li>
+						</ul>
+						
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Quality Testing</h1>
+							</header>
+							<div class="content">
+								<p>Quality testers can test the crops and grade them according to the quality of crops.</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<div class="form" id="log-in-form">
+                                        <h2 class="form-title">Enter Details</h2>
+                    
+                    
+                                        <br>
+                                        <table>
+                                            <!-- <tr><td><b><label class = "black">Farmer Id</label></td><td>:</td></b><td><span class="black" span id="getval1"></span></td></tr> -->
+                                            <input type="text" class="input-std" id="fid1" placeholder="Farmer Id">
+                                            <tr>
+                                                <td><b><label class="black">Farmer's Name</label></td>
+                                                <td>:</td></b>
+                                                <td><span class="black" span id="getval2"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b><label class="black">Location</label></td>
+                                                <td>:</td></b>
+                                                <td><span class="black" span id="getval3"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b><label class="black">Crop</label></td>
+                                                <td>:</td></b>
+                                                <td><span class="black" span id="getval4"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b><label class="black">Phone</label></td>
+                                                <td>:</td></b>
+                                                <td><span class="black" span id="getval5"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b><label class="black">Quantity</label></td>
+                                                <td>:</td></b>
+                                                <td><span class="black" span id="getval6"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b><label class="black">Expected price</label>
+                                                <td>:</td>
+                                                </td></b>
+                                                <td><span class="black" span id="getval7"></span></td>
+                                            </tr>
+                    
+                                        </table>
+                                        <button type="button" class="btn-submit" id="getvalue" onclick="get();">Get Value</button>
+                    
+                                        <br><br>
+                    
+                                        <table align="center">
+                                            <tr>
+                                                <td><button type="button" id="printBlock" class="btn btn-selector"
+                                                        onclick="printBlock()">Print Block</button></td>
+                                                <td><button type="button" id="printTransaction" class="btn btn-selector"
+                                                        onclick="printTransaction()">Print Transaction</button></td>
+                                            </tr>
+                                        </table>
+                    
+                                        <br>
+                                        <h4> Block Number : <span class="blockclass" span id="blocknum"> </span></h4>
+                                        <br>
+                                        <div style="align-content: center;">
+                                            <button type="button" class="btn-submit" id="Approve-btn" font="20px">Approve
+                                                Details</button>
+                                        </div>
+                    
+                    
+                                        <span id="status"></span>
+                    
+                                    </div>
+                    
+                    
+                                    <div class="form" id="approve-form">
+                                        <h2 class="form-title">Product Details</h2>
+                                        <input type="text" class="input-std" id="lotno" placeholder="Lot Number">
+                                        <input type="text" class="input-std" id="grade" placeholder="Grade">
+                                        <input type="text" class="input-std" id="mrp" placeholder="MRP">
+                                        <input type="text" class="input-std" id="testdate" placeholder="Test Date">
+                                        <input type="text" class="input-std" id="expdate" placeholder="Expiry Date">
+                    
+                                        <button type="button" class="btn-submit" id="setvalue" onclick="setQ()">Submit</button>
+                    
+                                        <span id="status"></span>
+                    
+                                    </div>
+                    
+                              
+								</div>
+							</section>
+							
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>Krishi Bazar</li><li>2020</li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="app.js"></script>
+	</body>
+</html>

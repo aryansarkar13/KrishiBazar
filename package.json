@@ -1,7 +1,7 @@
 {
-  "name": "techkrishi",
+  "name": "krishibazar",
   "version": "1.0.0",
-  "description": "",
+  "description": "a decentralized agro market developed on ethereum bc",
   "main": "truffle.js",
   "directories": {
     "test": "test"

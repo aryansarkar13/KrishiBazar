@@ -30,6 +30,8 @@ Step 5: 'npm run dev' to start lite-server
 
 Step 6: Goto localhost:3000
 
+Voila you have the Krishi Bazar running!
+
 # Screenshots
 
 ![screenshot1](https://github.com/aryansarkar13/TechKrishi/blob/master/Screenshots/ss1.PNG?raw=true)

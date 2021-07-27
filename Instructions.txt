@@ -1,6 +1,6 @@
 Step 1. Start ganache.
 
-Step 2. Go to KrishiTech Directory and do 'npm install'
+Step 2. Go to KrishiBazar Directory and do 'npm install'
 
 Step 3: truffle migrate
 
